@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="theme-color"
+        content="#030509"
+    >
+
+    <title>NEURAL — Personal Space</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Orbitron:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         BACKGROUND SYSTEM
+    ====================================================== -->
+
+    <div class="sky-system"></div>
+
+    <div class="city-back city-layer-1"></div>
+    <div class="city-back city-layer-2"></div>
+    <div class="city-back city-layer-3"></div>
+
+    <div class="city-windows"></div>
+
+    <div class="horizon-light"></div>
+
+    <div class="ambient ambient-1"></div>
+    <div class="ambient ambient-2"></div>
+    <div class="ambient ambient-3"></div>
+
+    <div class="grid"></div>
+
+    <div class="stars"></div>
+
+    <div class="screen-beam"></div>
+    <div class="screen-flash"></div>
+
+    <div class="noise"></div>
+    <div class="vignette"></div>
+
+
+    <!-- =====================================================
+         CURSOR
+    ====================================================== -->
+
+    <div class="cursor">
+        <span class="cursor-cross horizontal"></span>
+        <span class="cursor-cross vertical"></span>
+    </div>
+
+    <div class="cursor-dot"></div>
+
+
+    <!-- =====================================================
+         NAVBAR
+    ====================================================== -->
+
+    <header class="navbar">
+
+        <div
+            class="logo magnetic"
+            data-magnetic
+        >
+            N<span>E</span>URAL
+        </div>
+
+        <nav>
+
+            <button
+                class="nav-btn active"
+                data-section="home"
+            >
+                <span>01</span>
+                الرئيسية
+            </button>
+
+            <button
+                class="nav-btn"
+                data-section="about"
+            >
+                <span>02</span>
+                عني
+            </button>
+
+            <button
+                class="nav-btn"
+                data-section="gallery"
+            >
+                <span>03</span>
+                صوري
+            </button>
+
+            <button
+                class="nav-btn"
+                data-section="projects"
+            >
+                <span>04</span>
+                مشاريعي
+            </button>
+
+            <button
+                class="nav-btn"
+                data-section="control"
+            >
+                <span>05</span>
+                التحكم
+            </button>
+
+        </nav>
+
+        <button
+            class="system-btn"
+            id="systemBtn"
+        >
+            <i></i>
+            SYSTEM
+        </button>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
+
+    <main>
+
+
+        <!-- =================================================
+             HOME
+        ================================================== -->
+
+        <section
+            class="page-section active-section"
+            id="home"
+        >
+
+            <div class="hero">
+
+                <div class="hero-small">
+
+                    <span class="status-dot"></span>
+
+                    SYSTEM ONLINE
+
+                </div>
+
+
+                <h1 class="hero-title">
+
+                    <span>YOUR</span>
+
+                    <span>WORLD</span>
+
+                    <span class="outline">
+                        YOUR RULES
+                    </span>
+
+                </h1>
+
+
+                <p class="hero-description">
+
+                    A digital personal space
+                    designed entirely in a futuristic
+                    style and tailored to my mood.
+
+                </p>
+
+
+                <div class="hero-actions">
+
+                    <button
+                        class="portal-btn"
+                        id="exploreBtn"
+                    >
+
+                        <span class="portal-ring"></span>
+
+                        <span class="portal-text">
+                            ENTER EXPERIENCE
+                        </span>
+
+                    </button>
+
+
+                    <button
+                        class="ghost-btn"
+                        id="aboutBtn"
+                    >
+
+                        اكتشفني
+
+                        <span>↗</span>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- HERO IMAGE -->
+
+            <div class="hero-image-wrap">
+
+                <div class="orbit orbit-a"></div>
+                <div class="orbit orbit-b"></div>
+                <div class="orbit orbit-c"></div>
+
+
+                <div
+                    class="hero-image-card"
+                    id="heroImageCard"
+                >
+
+                    <div class="image-scanner"></div>
+
+                    <div
+                        class="image-placeholder"
+                        id="heroImage"
+                    >
+
+                        <span>
+                            YOUR<br>
+                            PHOTO
+                        </span>
+
+                    </div>
+
+
+                    <div class="image-meta">
+
+                        <span>
+                            IDENTITY
+                        </span>
+
+                        <strong>
+                            001
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="scroll-indicator">
+
+                <span>
+                    SCROLL TO EXPLORE
+                </span>
+
+                <i></i>
+
+            </div>
+
+
+            <div class="hero-coordinate">
+                30.0444° N
+            </div>
+
+            <div class="hero-coordinate right">
+                31.2357° E
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             ABOUT
+        ================================================== -->
+
+        <section
+            class="page-section"
+            id="about"
+        >
+
+            <div class="section-header">
+
+                <span>
+                    02 / PROFILE
+                </span>
+
+                <h2>
+                    أهلاً، أنا
+                    <strong id="aboutName">
+                        اسمك
+                    </strong>
+                </h2>
+
+            </div>
+
+
+            <div class="about-layout">
+
+                <div class="about-main glass-card">
+
+                    <div class="card-number">
+                        PROFILE_01
+                    </div>
+
+                    <div class="card-line"></div>
+
+
+                    <h3 id="aboutTitle">
+                        أهلاً بك في عالمي.
+                    </h3>
+
+
+                    <p id="aboutDescription">
+
+                        اكتب هنا أي معلومات تحب الناس
+                        تعرفها عنك. تقدر تغير الكلام ده
+                        بالكامل من Control Center بدون
+                        ما تعدل الكود.
+
+                    </p>
+
+
+                    <div class="stats">
+
+                        <div>
+
+                            <span>
+                                LOCATION
+                            </span>
+
+                            <strong id="aboutLocation">
+                                Egypt
+                            </strong>
+
+                        </div>
+
+
+                        <div>
+
+                            <span>
+                                FIELD
+                            </span>
+
+                            <strong id="aboutField">
+                                Web Developer
+                            </strong>
+
+                        </div>
+
+
+                        <div>
+
+                            <span>
+                                STATUS
+                            </span>
+
+                            <strong class="online-text">
+                                ONLINE
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="about-side">
+
+                    <div class="mini-card rotate-card">
+
+                        <span>
+                            CREATIVE
+                        </span>
+
+                        <strong>
+                            100%
+                        </strong>
+
+                    </div>
+
+
+                    <div class="mini-card">
+
+                        <span>
+                            CURIOUS
+                        </span>
+
+                        <strong>
+                            ∞
+                        </strong>
+
+                    </div>
+
+
+                    <div class="mini-card">
+
+                        <span>
+                            SYSTEM
+                        </span>
+
+                        <strong>
+                            01
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             GALLERY
+        ================================================== -->
+
+        <section
+            class="page-section"
+            id="gallery"
+        >
+
+            <div class="section-header gallery-header">
+
+                <div>
+
+                    <span>
+                        03 / MEDIA VAULT
+                    </span>
+
+                    <h2>
+                        My
+                        <strong>
+                            Visual World
+                        </strong>
+                    </h2>
+
+                </div>
+
+
+                <button
+                    class="upload-btn"
+                    id="uploadBtn"
+                >
+
+                    <span>
+                        +
+                    </span>
+
+                    ADD IMAGE
+
+                </button>
+
+
+                <input
+                    type="file"
+                    id="imageInput"
+                    accept="image/*"
+                    hidden
+                >
+
+            </div>
+
+
+            <div
+                class="gallery-grid"
+                id="galleryGrid"
+            >
+
+                <div
+                    class="empty-gallery"
+                    id="emptyGallery"
+                >
+
+                    <div class="empty-symbol">
+                        ◇
+                    </div>
+
+                    <h3>
+                        MEDIA VAULT EMPTY
+                    </h3>
+
+                    <p>
+                        أضف أول صورة من الزر الموجود بالأعلى.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             PROJECTS
+        ================================================== -->
+
+        <section
+            class="page-section"
+            id="projects"
+        >
+
+            <div class="section-header">
+
+                <span>
+                    04 / CREATIONS
+                </span>
+
+                <h2>
+                    Selected
+                    <strong>
+                        Projects
+                    </strong>
+                </h2>
+
+            </div>
+
+
+            <div
+                class="projects-grid"
+                id="projectsGrid"
+            >
+
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        01
+                    </div>
+
+
+                    <div class="project-visual">
+
+                        <span>
+                            PROJECT
+                        </span>
+
+                        <div class="project-orb"></div>
+
+                    </div>
+
+
+                    <div class="project-info">
+
+                        <span>
+                            WEB EXPERIENCE
+                        </span>
+
+                        <h3>
+                            Future Interface
+                        </h3>
+
+                        <p>
+                            مشروع تجريبي لواجهة مستقبلية.
+                        </p>
+
+                    </div>
+
+
+                    <button class="project-arrow">
+                        ↗
+                    </button>
+
+                </article>
+
+
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        02
+                    </div>
+
+
+                    <div class="project-visual second">
+
+                        <span>
+                            PROJECT
+                        </span>
+
+                        <div class="project-orb"></div>
+
+                    </div>
+
+
+                    <div class="project-info">
+
+                        <span>
+                            CREATIVE CODE
+                        </span>
+
+                        <h3>
+                            Digital Space
+                        </h3>
+
+                        <p>
+                            تجربة رقمية تفاعلية.
+                        </p>
+
+                    </div>
+
+
+                    <button class="project-arrow">
+                        ↗
+                    </button>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             CONTROL CENTER
+        ================================================== -->
+
+        <section
+            class="page-section"
+            id="control"
+        >
+
+            <div class="section-header">
+
+                <span>
+                    05 / CONTROL CENTER
+                </span>
+
+                <h2>
+                    Personal
+                    <strong>
+                        Core
+                    </strong>
+                </h2>
+
+            </div>
+
+
+            <div class="control-layout">
+
+
+                <aside class="control-menu">
+
+                    <button
+                        class="control-tab active"
+                        data-panel="profilePanel"
+                    >
+
+                        <span>
+                            01
+                        </span>
+
+                        PROFILE CORE
+
+                    </button>
+
+
+                    <button
+                        class="control-tab"
+                        data-panel="mediaPanel"
+                    >
+
+                        <span>
+                            02
+                        </span>
+
+                        MEDIA VAULT
+
+                    </button>
+
+
+                    <button
+                        class="control-tab"
+                        data-panel="appearancePanel"
+                    >
+
+                        <span>
+                            03
+                        </span>
+
+                        VISUAL SYSTEM
+
+                    </button>
+
+
+                    <button
+                        class="control-tab"
+                        data-panel="backupPanel"
+                    >
+
+                        <span>
+                            04
+                        </span>
+
+                        DATA CORE
+
+                    </button>
+
+                </aside>
+
+
+
+                <div class="control-content">
+
+
+                    <!-- PROFILE -->
+
+                    <div
+                        class="control-panel active"
+                        id="profilePanel"
+                    >
+
+                        <div class="panel-title">
+
+                            <span>
+                                PROFILE CORE
+                            </span>
+
+                            <small>
+                                EDIT YOUR IDENTITY
+                            </small>
+
+                        </div>
+
+
+                        <label>
+
+                            الصورة الرئيسية
+
+                            <button
+                                type="button"
+                                class="hero-upload-btn"
+                                id="heroUploadBtn"
+                            >
+
+                                <span>
+                                    ＋
+                                </span>
+
+                                اختيار الصورة الرئيسية
+
+                            </button>
+
+                            <input
+                                type="file"
+                                id="heroImageInput"
+                                accept="image/*"
+                                hidden
+                            >
+
+                        </label>
+
+
+                        <label>
+
+                            اسمك
+
+                            <input
+                                type="text"
+                                id="nameInput"
+                                placeholder="اكتب اسمك"
+                            >
+
+                        </label>
+
+
+                        <label>
+
+                            العنوان
+
+                            <input
+                                type="text"
+                                id="titleInput"
+                                placeholder="مثلاً Web Developer"
+                            >
+
+                        </label>
+
+
+                        <label>
+
+                            المكان
+
+                            <input
+                                type="text"
+                                id="locationInput"
+                                placeholder="Egypt"
+                            >
+
+                        </label>
+
+
+                        <label>
+
+                            المجال
+
+                            <input
+                                type="text"
+                                id="fieldInput"
+                                placeholder="Web Development"
+                            >
+
+                        </label>
+
+
+                        <label>
+
+                            عنك
+
+                            <textarea
+                                id="descriptionInput"
+                                placeholder="اكتب نبذة عن نفسك"
+                            ></textarea>
+
+                        </label>
+
+
+                        <button
+                            class="save-btn"
+                            id="saveProfile"
+                        >
+
+                            <span></span>
+
+                            SAVE IDENTITY
+
+                        </button>
+
+                    </div>
+
+
+
+                    <!-- MEDIA -->
+
+                    <div
+                        class="control-panel"
+                        id="mediaPanel"
+                    >
+
+                        <div class="panel-title">
+
+                            <span>
+                                MEDIA VAULT
+                            </span>
+
+                            <small>
+                                MANAGE YOUR IMAGES
+                            </small>
+
+                        </div>
+
+
+                        <button
+                            class="big-upload"
+                            id="bigUploadBtn"
+                        >
+
+                            <strong>
+                                ＋
+                            </strong>
+
+                            <span>
+                                UPLOAD NEW IMAGE
+                            </span>
+
+                            <small>
+                                JPG / PNG / WEBP
+                            </small>
+
+                        </button>
+
+                    </div>
+
+
+
+                    <!-- VISUAL -->
+
+                    <div
+                        class="control-panel"
+                        id="appearancePanel"
+                    >
+
+                        <div class="panel-title">
+
+                            <span>
+                                VISUAL SYSTEM
+                            </span>
+
+                            <small>
+                                EXPERIMENTAL INTERFACE
+                            </small>
+
+                        </div>
+
+
+                        <div class="visual-option">
+
+                            <div>
+
+                                <strong>
+                                    City Atmosphere
+                                </strong>
+
+                                <small>
+                                    Futuristic city background
+                                </small>
+
+                            </div>
+
+                            <button
+                                class="toggle active"
+                                id="cityToggle"
+                            >
+
+                                <i></i>
+
+                            </button>
+
+                        </div>
+
+
+                        <div class="visual-option">
+
+                            <div>
+
+                                <strong>
+                                    Particle Field
+                                </strong>
+
+                                <small>
+                                    Animated background particles
+                                </small>
+
+                            </div>
+
+                            <button
+                                class="toggle active"
+                                id="particleToggle"
+                            >
+
+                                <i></i>
+
+                            </button>
+
+                        </div>
+
+
+                        <div class="visual-option">
+
+                            <div>
+
+                                <strong>
+                                    Cursor FX
+                                </strong>
+
+                                <small>
+                                    Interactive HUD cursor
+                                </small>
+
+                            </div>
+
+                            <button
+                                class="toggle active"
+                                id="cursorToggle"
+                            >
+
+                                <i></i>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- DATA -->
+
+                    <div
+                        class="control-panel"
+                        id="backupPanel"
+                    >
+
+                        <div class="panel-title">
+
+                            <span>
+                                DATA CORE
+                            </span>
+
+                            <small>
+                                LOCAL DATABASE
+                            </small>
+
+                        </div>
+
+
+                        <div class="backup-box">
+
+                            <div>
+
+                                <strong>
+                                    LOCAL DATABASE
+                                </strong>
+
+                                <p>
+                                    جميع البيانات محفوظة داخل
+                                    متصفحك باستخدام IndexedDB.
+                                </p>
+
+                            </div>
+
+
+                            <div class="backup-actions">
+
+                                <button id="exportBtn">
+                                    EXPORT
+                                </button>
+
+                                <button id="clearBtn">
+                                    CLEAR DATA
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =====================================================
+         IMAGE VIEWER
+    ====================================================== -->
+
+    <div
+        class="image-viewer"
+        id="imageViewer"
+    >
+
+        <button
+            class="viewer-close"
+            id="viewerClose"
+        >
+            ×
+        </button>
+
+
+        <img
+            id="viewerImage"
+            src=""
+            alt=""
+        >
+
+
+        <div class="viewer-info">
+
+            <span>
+                MEDIA
+            </span>
+
+            <strong id="viewerName">
+                IMAGE
+            </strong>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         TOAST
+    ====================================================== -->
+
+    <div
+        class="toast"
+        id="toast"
+    >
+
+        <span class="toast-icon">
+            ✓
+        </span>
+
+        <div>
+
+            <strong id="toastTitle">
+                SYSTEM
+            </strong>
+
+            <small id="toastMessage">
+                Done
+            </small>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         PARTICLES
+    ====================================================== -->
+
+    <div
+        class="particle-container"
+        id="particleContainer"
+    ></div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
